@@ -3,26 +3,38 @@ body{
   padding: 0;
 }
 header{
+  border: solid;
+  height: 5vw;
+  width: auto;
   display: flex;
+}
+.header_rogo_fleam{
+  width: 45%;
+    height: 100%;
 }
 .header_rogo{
-  width: 7%;
-  height: auto;
-  border: solid 2px;
+  width: 5vw;
+      height: 3.5vw;
+      border: solid;
+      margin-block-start: 0.5vw;
+      margin-inline-start: 20%;
 }
 .navi{
-  border: solid 2px;
   padding: 0;
-  margin: 0;
-  height: auto;
-  list-style: none;
+    margin: 0;
+    height: auto;
+    list-style: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.navi a{
+  border: solid;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
 }
 .navi_menu{
   border: solid;
-  height: auto;
+  height: 100%;
     width: 100%;
     text-align: center;
 }
@@ -139,4 +151,56 @@ footer{
   width: 6%;
   border: solid;
   height: auto;
+}
+/* 会社概要ページ */
+.Greetings{
+  width: 80%;
+margin: 10% auto;
+}
+.Greetings h1{
+  font-size: 4vw;
+  text-align: center;
+}
+.Greetings img{
+width: 45%;
+border-radius: 10%;
+border: solid;
+}
+.Greetings_texts{
+  float: right;
+  width: 50%;
+}
+.Greetings_texts p{
+  font-size: 1.5vw;
+  line-height: 2.5;
+}
+.Greetings_title{
+  font-size: 2.5vw;
+text-align: center;
+border-bottom: solid;
+}
+.ConpanyPofire_contentiner{
+  width: 100%;
+  margin: 10% auto;
+}
+.ConpanyPofire_content h2{
+  font-size: 3vw;
+  text-align: center;
+}
+.ConpanyPofire_content table{
+  width: 80%;
+    border: solid;
+    margin: 0 auto;
+      height: auto;
+}
+.ConpanyPofire_content table tr th,.ConpanyPofire_content table tr td{
+  border: solid;
+  font-size: 2vw;
+  height: 6vw;
+}
+.ConpanyPofire_content table tr th{
+padding: 0;
+    border: solid;
+    margin: 0;
+    width: 25%;
 }
