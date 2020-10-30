@@ -1,0 +1,143 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  display: flex;
+}
+.header_rogo{
+  width: 7%;
+  height: auto;
+  border: solid 2px;
+}
+.navi{
+  border: solid 2px;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.navi_menu{
+  border: solid;
+  height: auto;
+    width: 100%;
+    text-align: center;
+}
+.Content{
+  width: 100%;
+  height: 100%;
+}
+.Top_Content{
+  width: 100%;
+  height: 50vw;
+}
+.Top_fot{
+  width: 100%;
+  height: 100%;
+}
+.FirstContent{
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+}
+.FirstContent_img{
+  width: 70%;
+    border: solid;
+}
+.First_box{
+  text-align: center;
+      width: 50%;
+      position: absolute;
+      top: 2vw;
+      border: solid;
+      right: 1vw;
+      background: white;
+      height: 80%;
+}
+.First_box h2{
+  font-size: 3vw;
+}
+.First_box p{
+  font-size: 1.5vw;
+}
+.First_box_button{
+　　background-color: #666666;
+    font-weight: bold;
+    font-size: 1.5vw;
+    padding: 0;
+    width: 15vw;
+    height: 5vw;
+    margin-block-start: 4vw;
+    cursor: pointer;
+  }
+.Second{
+  margin-top: 5%;
+  border: solid;
+  text-align: center;
+}
+.Second h1{
+  font-size: 3vw;
+}
+.SecondContent{
+  display: flex;
+  justify-content:space-around;
+  padding-bottom: 5%;
+}
+.SecondContent_1,.SecondContent_2,.SecondContent_3{
+border: solid;
+width: auto;
+height: 33vw;
+}
+.SecondContent_fot{
+  border: solid;
+border-radius: 50%;
+}
+.SecondContent_1_frame,.SecondContent_2_frame,.SecondContent_3_frame{
+  width: 80%;
+  margin: auto;
+  padding-top:10%;
+}
+.SecondContent_fot{
+  width: 100%;
+}
+.SecondContent p{
+  font-size: 1.5vw;
+}
+.SecondContent a{
+  text-decoration: none;
+    font-size: 2vw;
+    border: solid black;
+    margin: 0;
+    border-radius: -9%;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0.4vw;
+    color: black;
+}
+.footer_links{
+  font-size: 2vw;
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    padding: 0;
+    margin-block-start: 6%;
+    width: 100%;
+}
+footer{
+  border: solid;
+}
+.footer_imgs{
+  justify-content: flex-end;
+    display: flex;
+    height: auto;
+}
+.footer_img{
+  margin: 2%;
+  width: 6%;
+  border: solid;
+  height: auto;
+}
