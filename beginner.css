@@ -29,7 +29,6 @@ header{
     justify-content: space-around;
 }
 .navi a{
-  border: solid;
   width: 100%;
 }
 .navi_menu{
@@ -37,6 +36,9 @@ header{
   height: 100%;
     width: 100%;
     text-align: center;
+}
+.navi_menu span{
+  line-height: 5vw;
 }
 .Content{
   width: 100%;
@@ -100,7 +102,7 @@ header{
 .SecondContent_1,.SecondContent_2,.SecondContent_3{
 border: solid;
 width: auto;
-height: 33vw;
+height: 35vw;
 }
 .SecondContent_fot{
   border: solid;
@@ -151,6 +153,10 @@ footer{
   width: 6%;
   border: solid;
   height: auto;
+}
+.Copyright{
+text-align: center;
+font-size: 20px;
 }
 /* 会社概要ページ */
 .Greetings{
