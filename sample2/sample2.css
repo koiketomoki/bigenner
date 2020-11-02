@@ -50,7 +50,7 @@ body{
 .TOP_info,.Greetings{
   width: 90%;
 }
-.TOP_info h2,.Greetings h2{
+.TOP_info h2,.Greetings h2,.ConpanyPofire_title h2{
   clear: both;
     margin-bottom: 20px;
     font-size: 18px;
@@ -121,4 +121,19 @@ padding: 15px 10px;
     padding: 3% 0;
     background: black;
     color: white;
+}
+.ConpanyPofire_title table{
+  border-collapse: collapse;
+    font-size: 100%;
+    border-spacing: 0;
+}
+.ConpanyPofire_title table th{
+  width: 140px;
+    text-align: center;
+    font-weight: normal;
+}
+.ConpanyPofire_title table tr,.ConpanyPofire_title table td{
+border: 1px solid #ccc;
+  padding: 10px 15px;
+  word-break: break-all;
 }
