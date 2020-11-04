@@ -3,10 +3,12 @@ body{
   padding: 0;
   color: gray;
   background: lightgrey;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 .TOP_container{
   display: flex;
   margin-bottom: 10%;
+  padding: 1%;
 }
 .TOP_content{
   margin-left: 6%;
@@ -15,7 +17,7 @@ body{
   content: "";
     margin: 0 auto;
     background: white;
-    width:90%;
+    width:89%;
     height: 100%;
     border-top:solid black 5px;
 }
@@ -50,7 +52,7 @@ body{
 .TOP_info,.Greetings{
   width: 90%;
 }
-.TOP_info h2,.Greetings h2,.ConpanyPofire_title h2{
+.TOP_info h2,.Greetings h2,.ConpanyPofire_title h2,.sevice_TOP h2{
   clear: both;
     margin-bottom: 20px;
     font-size: 18px;
@@ -60,7 +62,22 @@ body{
     box-shadow: 1px 2px 5px #ccc;
     color: #FFF;
     border-radius: 4px;
-
+    font-weight: normal;
+}
+.sevice_TOP h2{
+  clear: both;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 5px 20px;
+    background: #000;
+    background: linear-gradient(#303030, #121212);
+    box-shadow: 1px 2px 5px #ccc;
+    color: #FFF;
+    border-radius: 4px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 36px;
 }
 .TOP_info_space{
   margin-left: 3%;
@@ -132,8 +149,51 @@ padding: 15px 10px;
     text-align: center;
     font-weight: normal;
 }
-.ConpanyPofire_title table tr,.ConpanyPofire_title table td{
+.ConpanyPofire_title table tr.ConpanyPofire_title table td{
 border: 1px solid #ccc;
   padding: 10px 15px;
   word-break: break-all;
+}
+.sevice_TOP{
+  width: 100%;
+}
+.sevice_content{
+  margin-left: 3%;
+}
+.sevice_content p{
+padding: 0px 20px 15px;
+}
+.sevice_list{
+  position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: linear-gradient(#FFF, #eee);
+    box-shadow: 0px 2px 5px #ccc;
+}
+.sevice_list a{
+  overflow: hidden;
+    display: block;
+    text-decoration: none;
+    margin: -20px;
+    padding: 20px;
+    background: linear-gradient(#FFF, #eee);
+}
+.sevice_list a img{
+  width: 30%;
+    float: left;
+    margin-right: 10px;
+}
+.sevice_list  h4{
+  font-size: 18px;
+    color: #000;
+}
+.sevice_list a p{
+  padding: 0;
+}
+.sevice_content2{
+  width: 100%;
+    margin-right: 3%;
+    margin-left: 4%;
 }
