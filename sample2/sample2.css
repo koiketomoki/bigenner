@@ -10,6 +10,21 @@ body{
   margin-bottom: 10%;
   padding: 1%;
 }
+.scroll-top {
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;
+  background-color: #999;
+  opacity: .8;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+}
+.scroll-top:hover {
+  cursor: pointer;
+}
 .TOP_content{
   margin-left: 6%;
 }
@@ -23,7 +38,7 @@ body{
 }
 .body_second header h1{
   color: black;
-  margin-left: 6%;
+  margin-left: 4%;
 }
 .navi{
   width: 100%;
@@ -36,35 +51,28 @@ body{
   list-style: none;
   padding: 0;
 }
-.navi ul li{
-  padding: 1% 0;
-    border: solid lightgray 1px;
-    width: 100%;
+.navi ul a{
+  font-size: 17px;
+  width: 100%;
+    color: grey;
+    text-decoration: none;
     font-weight: bold;
+}
+.navi ul li{
+  padding: 5px 0px;
+      border: solid lightgray 1px;
+      width: 100%;
+      line-height: 1.6;
 }
 .navi_fontsmall{
   font-size: 13px;
-  font-weight:normal;
+      font-weight: normal;
+      color: lightgray;
 }
 .slide0{
   width: 100%;
 }
-.TOP_info,.Greetings{
-  width: 90%;
-}
-.TOP_info h2,.Greetings h2,.ConpanyPofire_title h2,.sevice_TOP h2{
-  clear: both;
-    margin-bottom: 20px;
-    font-size: 18px;
-    padding: 5px 20px;
-    background: #000;
-    background: linear-gradient(#303030, #121212);
-    box-shadow: 1px 2px 5px #ccc;
-    color: #FFF;
-    border-radius: 4px;
-    font-weight: normal;
-}
-.sevice_TOP h2{
+.sevice_TOP h2,.TOP_info h2,.Greetings h2,.ConpanyPofire_title h2,.recrult_TOP h2 ,.contact_content h2{
   clear: both;
     margin-top: 0;
     margin-bottom: 20px;
@@ -106,7 +114,7 @@ line-height: 2.5;
 font-size: 16px;
 }
 .content2{
-  width: 35%;
+  width: 31%;
     margin-right: 3%;
 }
 .TOP_box{
@@ -138,6 +146,7 @@ padding: 15px 10px;
     padding: 3% 0;
     background: black;
     color: white;
+    margin-bottom: 0;
 }
 .ConpanyPofire_title table{
   border-collapse: collapse;
@@ -153,12 +162,6 @@ padding: 15px 10px;
 border: 1px solid #ccc;
   padding: 10px 15px;
   word-break: break-all;
-}
-.sevice_TOP{
-  width: 100%;
-}
-.sevice_content{
-  margin-left: 3%;
 }
 .sevice_content p{
 padding: 0px 20px 15px;
@@ -196,4 +199,68 @@ padding: 0px 20px 15px;
   width: 100%;
     margin-right: 3%;
     margin-left: 4%;
+}
+.recrult_content,.contact_content,.sevice_content{
+  width: 100%;
+    margin-left: 3%;
+}
+.recrult_TOP,.contact_TOP,.sevice_TOP,.ConpanyPofire_title,.Greetings,.TOP_info{
+  margin-right: 5%;
+}
+
+ table{
+  border-collapse: collapse;
+  font-size: 100%;
+   border-spacing: 0;
+}
+.ta1 {
+	width: 100%;
+	margin: 0 auto 20px;
+}
+.ta1, .ta1 td, .ta1 th {
+	border: 1px solid gray;
+	padding: 10px 15px;
+  word-break: break-all;
+}
+.ta1 th.tamidashi {
+	width: auto;
+	text-align: left;
+}
+.ta1 th {
+	width: 25%;
+	text-align: center;
+	font-weight: normal;
+}
+
+.ta1 th img {
+	width: 100%;
+}
+.ta1 th a{
+  color: gray;
+}
+.wl {
+  width: 96%;
+  height: 100%;
+}
+.ws {
+  width: 50%;
+}
+.c {
+  text-align: center;
+}
+.c input{
+  width: 19%;
+    height: 40px;
+    font-size: 1em;
+    border: solid 1px lightgrey;
+    background: #eee;
+}
+.r {
+  text-align: right;
+}
+.l {
+  text-align: left;
+}
+.h170{
+height: 170px;
 }
